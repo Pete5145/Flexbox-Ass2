@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.container{
+    width: 960px;
+    min-height:600px;
+    margin: auto;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+.container .logo{
+    background-color: grey;
+    min-height:50px;
+    width: 100%;
+}
+.container header{
+    background-color: grey;
+    min-height:80px;
+    width: 100%;
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.container nav .nav-link1{
+    background-color: grey;
+    min-height:30px;
+    width: 20%;
+}
+.container nav .nav-link2{
+    background-color: grey;
+    min-height:30px;
+    width: 20%;
+}
+.container nav .nav-link3{
+    background-color: grey;
+    min-height:30px;
+    width: 20%;
+}
+.container nav .nav-link4{
+    background-color: grey;
+    min-height:30px;
+    width: 20%;
+}
+.container .about{
+    min-height: 200px;
+    background-color: grey;
+    margin-top: 20px;
+}
+.container .article{
+ display: grid;
+grid-template-columns:40% 60% 60%;
+
+}
+.container .links{
+    padding-left: 40px;
+}
+.container .links .quick-links1{
+    background-color: grey;
+    min-height:100px;
+}
+.container .links .quick-links2{
+    background-color: grey;
+    min-height:100px;   
+}
+.container footer {
+    width: 100%;
+    background-color: grey;
+    min-height:50px ;
+}
